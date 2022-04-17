@@ -27,7 +27,7 @@
 
   <distributionManagement>
       <repository>
-          <id>central</id>
+          <id>nexus</id>
           <name>maven-releases</name>
           <url>http://3.92.226.252:8081/nexus/content/repositories/releases/</url>
       </repository>
