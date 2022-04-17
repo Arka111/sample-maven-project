@@ -26,9 +26,15 @@
   <distributionManagement>
       <repository>
           <id>central</id>
-          <name>ip-172-31-25-124.ec2.internal-releases</name>
-          <url>http://ec2-34-228-9-119.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
+          <name>maven-releases</name>
+          <url>http://3.92.226.252:8081/nexus/content/repositories/releases/</url>
       </repository>
+
+      <snapshotRepository>
+          <id>nexus</id>
+          <name>maven-snapshots</name>
+          <url>http://3.92.226.252:8081/nexus/content/repositories/snapshots/</url>
+      </snapshotRepository>
   </distributionManagement>
 
 </project>
